@@ -3,11 +3,11 @@ import { dataShoe } from "../../ShoeShop/dataShoe";
 
 const initialState = {
   cart: [],
-  dataProduct: dataShoe,
+  dataShoe: dataShoe,
 };
 
 const shoeShopReducer = createSlice({
-  name: "shopReducer",
+  name: "shoeShopReducer",
   initialState,
   reducers: {},
 });
